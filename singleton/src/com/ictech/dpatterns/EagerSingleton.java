@@ -10,7 +10,9 @@ public class EagerSingleton {
     }
 
     //return only object available
-    public static EagerSingleton getInstance() { return es;}
+    public static EagerSingleton getInstance() {
+        return es;
+    }
 
     //sample method to test
     public void showMessage(){
