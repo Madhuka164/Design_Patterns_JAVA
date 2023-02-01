@@ -4,8 +4,8 @@ public class EagerSingleton {
     //crating a private instance
     private static EagerSingleton es= new EagerSingleton();
 
-    //creating constructor private
 
+    //creating constructor private
     private EagerSingleton() {
     }
 
