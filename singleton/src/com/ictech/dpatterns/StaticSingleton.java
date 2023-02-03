@@ -25,6 +25,9 @@ public class StaticSingleton {
      public static StaticSingleton getInstance(){
         return ss;
      }
+     public void showMessage(){
+         System.out.println("hello this is static singleton");
+     }
 }
 
 

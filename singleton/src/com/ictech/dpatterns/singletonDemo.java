@@ -9,6 +9,8 @@ public class singletonDemo {
             LazySingleton lazy=LazySingleton.getInstance();
             lazy.showMessage();
 
+            StaticSingleton Staticsin=StaticSingleton.getInstance();
+            Staticsin.showMessage();
 
     }
 }
