@@ -1,4 +1,15 @@
 package com.ictech.dpatterns;
 
-public class ComDVD {
+public class ComDVD extends ComputerDecorator{
+
+    Computer dvdCom;
+
+    public ComDVD(Computer com){
+        dvdCom=com;
+    }
+    @Override
+    public String description() {
+        return dvdCom.description() + " and a DVD ";
+    }
+
 }

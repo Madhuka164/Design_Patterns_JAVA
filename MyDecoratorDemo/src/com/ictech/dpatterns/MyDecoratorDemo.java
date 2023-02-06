@@ -1,16 +1,16 @@
 package com.ictech.dpatterns;
 
-public class MyDecoratoDemo {
+public class MyDecoratorDemo {
 
         public static void main(String[] args) {
             Computer com=new Computer()  ;
-            System.out.println(com.Description());
+            System.out.println(com.description());
 
             com= new ComDVD(com);
 
             com= new ComMonitor(com);
 
-            System.out.println(com.Description());
+            System.out.println(com.description());
 
 
 
